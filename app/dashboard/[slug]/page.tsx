@@ -3,5 +3,5 @@ export default function Page({
 }: {
   params: { slug: string}
 }) {
-  return <h1>Dashboard: {params.slug}</h1>
-}
+  return <h1>Dashboard: {params.slug?.replace('-', ' ')}</h1>
+} 

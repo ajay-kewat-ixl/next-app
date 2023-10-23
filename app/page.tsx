@@ -1,3 +1,7 @@
 export default function Page() {
-    return <h1>Hello World!</h1>
+    return (
+        <section>
+            <h1>Slider</h1>
+        </section>
+    )
 }

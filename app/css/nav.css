@@ -1,0 +1,40 @@
+.nav{
+    text-align: -webkit-right;
+    display: flex;
+    justify-content: space-between;
+    background: whitesmoke;
+    height: 50px;
+}
+
+.nav-icon {
+    padding-left: 10px;
+    font-family: system-ui;
+}
+.nav-bar {
+    position: absolute;
+    display: flex;
+    padding-right: 10px;
+    width: max-content;
+    right: 0px;
+}
+y
+.nav-item {
+    list-style-type: none;
+    padding-top: 10px;
+    background: orange;
+}
+
+.nav-bar::before {
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid orange;
+    border-left: 50px solid transparent;
+    content: "";
+}
+
+.nav-item > a {
+    text-decoration: none;
+    color: black;
+    font-family: math;
+    padding: 10px
+}
